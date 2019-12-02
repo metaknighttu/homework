@@ -1,0 +1,185 @@
+#include <cstring>
+#include <string>
+#include <iostream>
+#include <cstdlib>
+#include <cstdio>
+
+using namespace std;
+
+namespace nikes
+{
+	string productName = "Nike Basketball Shoes";
+	double cost = 179.99;
+	int inStock = 42;
+}
+
+namespace brooks
+{
+	string productName = "Brooks Running Shoes";
+	double cost = 121.44;
+	int inStock = 13;
+}
+
+namespace asics
+{
+	string productName = "Asics Running Shoes";
+	double cost = 165.88;
+	int inStock = 12;
+}
+
+namespace underTop
+{
+	string productName = "Under Armour T-Shirt";
+	double cost = 29.99;
+	int inStock = 44;
+}
+
+namespace underBot
+{
+	string productName = "Under Armour Shorts";
+	double cost = 45.77;
+	int inStock = 35;
+}
+
+
+
+int main() 
+{
+	cout << "-------------------------------" << endl;
+	cout << "-   Assignment 3 - Pointers   -" << endl;
+	cout << "-------------------------------" << endl;
+	cout << "- George Good - CS1C 2:30 M/W -" << endl;
+	cout << "-------------------------------" << endl;
+	cout << "This program uses namespaces for each of the products the" << endl;
+	cout << "store carries. The program starts by creating pointers to NULL" << endl;
+	cout << "to track the store's stock, then initializes them with new arrays." << endl;
+	cout << "Their values are set from their respective namespaces, then the " << endl;
+	cout << "cart's pointer is created and set to a new array that tracks" << endl;
+	cout << "how many of each item is being purchased. The program then asks" << endl;
+	cout << "the user how many of each product they are purchasing, calculates" << endl;
+	cout << "the cost of the purchase, and afterwards reprints the updated stock." << endl;
+	
+	cout << endl << "Program Start!" << endl << endl;
+	
+	cout << "Declaring stock pointers...";
+	double * stockCost = NULL;
+	int * stockNum = NULL;
+	
+	cout << "Done!" << endl << "Setting pointers to new arrays...";
+	
+	stockCost = new double[5];
+	stockNum = new int[5];
+	
+	cout << "Done!" << endl << "Filling dynamic arrays with data...";
+	
+	stockCost[0] = nikes::cost; stockNum[0] = nikes::inStock;
+	stockCost[1] = brooks::cost; stockNum[1] = brooks::inStock;
+	stockCost[2] = asics::cost; stockNum[2] = asics::inStock;
+	stockCost[3] = underTop::cost; stockNum[3] = underTop::inStock;
+	stockCost[4] = underBot::cost; stockNum[4] = underBot::inStock;
+
+	
+	cout << "Done!" << endl;
+	cout << "Creating and setting pointer to new dynamic array for cart...";
+	
+	int * cartNum = NULL;	
+	cartNum = new int[5];
+	
+	cout << "Done!" << endl << endl;
+	
+	cout << "Welcome to the Athletics Superstore! Here is what we offer:" << endl;
+	cout << nikes::productName << "- Cost : $" << stockCost[0] 
+			<< " - # In Stock: " << stockNum[0] << endl;
+			
+	cout << brooks::productName << "- Cost : $" << stockCost[1] 
+			<< " - # In Stock: " << stockNum[1] << endl;
+			
+	cout << asics::productName << "- Cost : $" << stockCost[2] 
+			<< " - # In Stock: " << stockNum[2] << endl;
+			
+	cout << underTop::productName << "- Cost : $" << stockCost[3] 
+			<< " - # In Stock: " << stockNum[3] << endl;
+			
+	cout << underBot::productName << "- Cost : $" << stockCost[4] 
+			<< " - # In Stock: " << stockNum[4] << endl;			
+			
+	cout << endl << endl << "How many Nike Shoes are you purchasing? : ";
+	cin.clear();
+//	cin.ignore(1000,'\n');
+	cin >> cartNum[0];
+	
+	cout << endl << "How many Brooks Shoes are you purchasing? : ";
+	cin.clear();
+//	cin.ignore(1000,'\n');
+	cin >> cartNum[1];
+
+	cout << endl << "How many Asics Shoes are you purchasing? : ";
+	cin.clear();
+//	cin.ignore(1000,'\n');
+	cin >> cartNum[2];
+	
+	cout << endl << "How many UnderArmour Tops are you purchasing? : ";
+	cin.clear();
+//	cin.ignore(1000,'\n');
+	cin >> cartNum[3];
+
+	cout << endl << "How many UnderArmour Bottoms are you purchasing? : ";
+	cin.clear();
+//	cin.ignore(1000,'\n');
+	cin >> cartNum[4];
+	
+	cout << endl << endl << "Calculating Reciept..." << endl;
+	
+	double * cartCost = new double;
+	
+	*cartCost = ( (stockCost[0] * cartNum[0]) + 
+				(stockCost[1] * cartNum[1]) +
+				(stockCost[2] * cartNum[2]) + 
+				(stockCost[3] * cartNum[3]) +
+				(stockCost[4] * cartNum[4]) );
+	
+	cout << "Pre-Tax Purchase cost: " << *cartCost << endl;
+	
+	cout << "Applying 7.75% sales tax..." << endl;
+	
+	*cartCost = (*cartCost * 1.0775);
+	
+	cout << "Total Cost of purchase: " << *cartCost << endl;
+	
+	cout << endl << "Pulling purchased product form stock...";
+	
+	stockNum[0] = (stockNum[0] - cartNum[0]);
+	stockNum[1] = (stockNum[1] - cartNum[1]);
+	stockNum[2] = (stockNum[2] - cartNum[2]);
+	stockNum[3] = (stockNum[3] - cartNum[3]);
+	stockNum[4] = (stockNum[4] - cartNum[4]);
+	
+	cout << "Done!" << endl << endl << "Printing Stock..." << endl;
+	cout << endl << "Welcome to the Athletics Superstore! Here is what we offer:" << endl;
+	cout << nikes::productName << "- Cost : $" << stockCost[0] 
+			<< " - # In Stock: " << stockNum[0] << endl;
+			
+	cout << brooks::productName << "- Cost : $" << stockCost[1] 
+			<< " - # In Stock: " << stockNum[1] << endl;
+			
+	cout << asics::productName << "- Cost : $" << stockCost[2] 
+			<< " - # In Stock: " << stockNum[2] << endl;
+			
+	cout << underTop::productName << "- Cost : $" << stockCost[3] 
+			<< " - # In Stock: " << stockNum[3] << endl;
+			
+	cout << underBot::productName << "- Cost : $" << stockCost[4] 
+			<< " - # In Stock: " << stockNum[4] << endl << endl;	
+	
+	cout << "Deleting Dynamic arrays...";
+	delete[] cartNum;
+	delete cartCost;
+	delete[] stockCost;
+	delete[] stockNum;
+	cout << "Done!" << endl;
+	
+	int dummy;
+	cin >> dummy;
+	
+	return 0;
+}

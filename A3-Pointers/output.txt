@@ -1,0 +1,57 @@
+-------------------------------
+-   Assignment 3 - Pointers   -
+-------------------------------
+- George Good - CS1C 2:30 M/W -
+-------------------------------
+This program uses namespaces for each of the products the
+store carries. The program starts by creating pointers to NULL
+to track the store's stock, then initializes them with new arrays.
+Their values are set from their respective namespaces, then the
+cart's pointer is created and set to a new array that tracks
+how many of each item is being purchased. The program then asks
+the user how many of each product they are purchasing, calculates
+the cost of the purchase, and afterwards reprints the updated stock.
+
+Program Start!
+
+Declaring stock pointers...Done!
+Setting pointers to new arrays...Done!
+Filling dynamic arrays with data...Done!
+Creating and setting pointer to new dynamic array for cart...Done!
+
+Welcome to the Athletics Superstore! Here is what we offer:
+Nike Basketball Shoes- Cost : $179.99 - # In Stock: 42
+Brooks Running Shoes- Cost : $121.44 - # In Stock: 13
+Asics Running Shoes- Cost : $165.88 - # In Stock: 12
+Under Armour T-Shirt- Cost : $29.99 - # In Stock: 44
+Under Armour Shorts- Cost : $45.77 - # In Stock: 35
+
+
+How many Nike Shoes are you purchasing? : 4
+
+How many Brooks Shoes are you purchasing? : 0
+
+How many Asics Shoes are you purchasing? : 1
+
+How many UnderArmour Tops are you purchasing? : 3
+
+How many UnderArmour Bottoms are you purchasing? : 4
+
+
+Calculating Reciept...
+Pre-Tax Purchase cost: 1158.89
+Applying 7.75% sales tax...
+Total Cost of purchase: 1248.7
+
+Pulling purchased product form stock...Done!
+
+Printing Stock...
+
+Welcome to the Athletics Superstore! Here is what we offer:
+Nike Basketball Shoes- Cost : $179.99 - # In Stock: 38
+Brooks Running Shoes- Cost : $121.44 - # In Stock: 13
+Asics Running Shoes- Cost : $165.88 - # In Stock: 11
+Under Armour T-Shirt- Cost : $29.99 - # In Stock: 41
+Under Armour Shorts- Cost : $45.77 - # In Stock: 31
+
+Deleting Dynamic arrays...Done!

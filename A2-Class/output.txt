@@ -1,0 +1,284 @@
+-------------------------------
+    Assignment 2 - Students   -
+-------------------------------
+- George Good - CS1C 2:30 M/W -
+-------------------------------
+This program will create 2 arrays of students
+One set normal, one CS1C set derived from base
+The program creates the arrays with the default constructor
+Then sets them all one function at a time, printing an
+example for each function called. Once complete, program
+will repeat the process for CS1C students and then call
+their CS1C exclusive setters, and finally print the results
+
+Program Start
+Creating object arrays...  Done!
+Testing Student Member Functions...
+Setting Names... Done!
+Printing Person...
+---------------------------------------
+-  Student Info                       -
+---------------------------------------
+- Name:                    Celine Dion-
+- Age:                              -1-
+- Gender:               Unknown Gender-
+- Contact Number:       Unknown Number-
+- ID Number:                        -1-
+- Class Standing:        Unknown Class-
+- GPA:                            -1.1-
+---------------------------------------
+Done!
+Setting IDs... Done!
+Printing Person...
+---------------------------------------
+-  Student Info                       -
+---------------------------------------
+- Name:                    Celine Dion-
+- Age:                              -1-
+- Gender:               Unknown Gender-
+- Contact Number:       Unknown Number-
+- ID Number:                    444444-
+- Class Standing:        Unknown Class-
+- GPA:                            -1.1-
+---------------------------------------
+Done!
+Setting Phone Numbers... Done!
+Printing Person...
+---------------------------------------
+-  Student Info                       -
+---------------------------------------
+- Name:                    Celine Dion-
+- Age:                              -1-
+- Gender:               Unknown Gender-
+- Contact Number:         949-555-1234-
+- ID Number:                    444444-
+- Class Standing:        Unknown Class-
+- GPA:                            -1.1-
+---------------------------------------
+Done!
+Setting Age... Done!
+Printing Person...
+---------------------------------------
+-  Student Info                       -
+---------------------------------------
+- Name:                    Celine Dion-
+- Age:                              51-
+- Gender:               Unknown Gender-
+- Contact Number:         949-555-1234-
+- ID Number:                    444444-
+- Class Standing:        Unknown Class-
+- GPA:                            -1.1-
+---------------------------------------
+Done!
+Setting Gender... Done!
+Printing Person...
+---------------------------------------
+-  Student Info                       -
+---------------------------------------
+- Name:                    Celine Dion-
+- Age:                              51-
+- Gender:                       Female-
+- Contact Number:         949-555-1234-
+- ID Number:                    444444-
+- Class Standing:        Unknown Class-
+- GPA:                            -1.1-
+---------------------------------------
+Done!
+Setting Class Standing... Done!
+Printing Person...
+---------------------------------------
+-  Student Info                       -
+---------------------------------------
+- Name:                    Celine Dion-
+- Age:                              51-
+- Gender:                       Female-
+- Contact Number:         949-555-1234-
+- ID Number:                    444444-
+- Class Standing:             Freshman-
+- GPA:                            -1.1-
+---------------------------------------
+Done!
+Setting Age... Done!
+Printing Students after Data...
+
+---------------------------------------
+-  Student Info                       -
+---------------------------------------
+- Name:                    Celine Dion-
+- Age:                              51-
+- Gender:                       Female-
+- Contact Number:         949-555-1234-
+- ID Number:                    444444-
+- Class Standing:             Freshman-
+- GPA:                               4-
+---------------------------------------
+---------------------------------------
+-  Student Info                       -
+---------------------------------------
+- Name:                        Madonna-
+- Age:                              61-
+- Gender:                       Female-
+- Contact Number:         714-555-5555-
+- ID Number:                    123456-
+- Class Standing:            Sophomore-
+- GPA:                            3.23-
+---------------------------------------
+---------------------------------------
+-  Student Info                       -
+---------------------------------------
+- Name:                 Jennifer Lopez-
+- Age:                              50-
+- Gender:                       Female-
+- Contact Number:         760-703-1234-
+- ID Number:                    876542-
+- Class Standing:            Sophomore-
+- GPA:                            3.79-
+---------------------------------------
+---------------------------------------
+-  Student Info                       -
+---------------------------------------
+- Name:                      Lady Gaga-
+- Age:                              33-
+- Gender:                       Female-
+- Contact Number:         213-555-6789-
+- ID Number:                    777744-
+- Class Standing:             Freshman-
+- GPA:                             2.1-
+---------------------------------------
+Testing CS1C Student Member Functions...
+Setting Derived Variables via Derived Member Functions... Done!
+Printing Students after Derived Data...
+
+---------------------------------------
+-  CS1CStudent Info                   -
+---------------------------------------
+- Name:                          Adele-
+- Age:                              31-
+- Gender:                       Female-
+- Contact Number:         949-665-1234-
+- ID Number:                    667788-
+- Class Standing:             Freshman-
+- GPA:                             3.3-
+---------------------------------------
+- Assignment Score:                 -1-
+- Knows Python?                Unknown-
+- Graduation Date:            1/1/1111-
+---------------------------------------
+---------------------------------------
+-  CS1CStudent Info                   -
+---------------------------------------
+- Name:                   Taylor Swift-
+- Age:                              29-
+- Gender:                         Male-
+- Contact Number:         248-555-6543-
+- ID Number:                    156789-
+- Class Standing:            Sophomore-
+- GPA:                             3.9-
+---------------------------------------
+- Assignment Score:                 -1-
+- Knows Python?                Unknown-
+- Graduation Date:            1/1/1111-
+---------------------------------------
+---------------------------------------
+-  CS1CStudent Info                   -
+---------------------------------------
+- Name:                     Bruno Mars-
+- Age:                              33-
+- Gender:                       Female-
+- Contact Number:         703-703-7654-
+- ID Number:                    876543-
+- Class Standing:            Sophomore-
+- GPA:                             3.2-
+---------------------------------------
+- Assignment Score:                 -1-
+- Knows Python?                Unknown-
+- Graduation Date:            1/1/1111-
+---------------------------------------
+Done!
+Setting CS1C Variables via CS1C Member Functions...
+Setting Assignment Score...
+Printing Person...
+---------------------------------------
+-  CS1CStudent Info                   -
+---------------------------------------
+- Name:                          Adele-
+- Age:                              31-
+- Gender:                       Female-
+- Contact Number:         949-665-1234-
+- ID Number:                    667788-
+- Class Standing:             Freshman-
+- GPA:                             3.3-
+---------------------------------------
+- Assignment Score:                500-
+- Knows Python?                Unknown-
+- Graduation Date:            1/1/1111-
+---------------------------------------
+Done!
+Setting Python Knowledge...
+Printing Person...
+---------------------------------------
+-  CS1CStudent Info                   -
+---------------------------------------
+- Name:                          Adele-
+- Age:                              31-
+- Gender:                       Female-
+- Contact Number:         949-665-1234-
+- ID Number:                    667788-
+- Class Standing:             Freshman-
+- GPA:                             3.3-
+---------------------------------------
+- Assignment Score:                500-
+- Knows Python?                     No-
+- Graduation Date:            1/1/1111-
+---------------------------------------
+Done!
+Setting Graduation Date...
+Done!
+Printing the completed CS1C Student profiles...
+---------------------------------------
+-  CS1CStudent Info                   -
+---------------------------------------
+- Name:                          Adele-
+- Age:                              31-
+- Gender:                       Female-
+- Contact Number:         949-665-1234-
+- ID Number:                    667788-
+- Class Standing:             Freshman-
+- GPA:                             3.3-
+---------------------------------------
+- Assignment Score:                500-
+- Knows Python?                     No-
+- Graduation Date:           5/12/2020-
+---------------------------------------
+---------------------------------------
+-  CS1CStudent Info                   -
+---------------------------------------
+- Name:                   Taylor Swift-
+- Age:                              29-
+- Gender:                         Male-
+- Contact Number:         248-555-6543-
+- ID Number:                    156789-
+- Class Standing:            Sophomore-
+- GPA:                             3.9-
+---------------------------------------
+- Assignment Score:                700-
+- Knows Python?                     No-
+- Graduation Date:           5/11/2021-
+---------------------------------------
+---------------------------------------
+-  CS1CStudent Info                   -
+---------------------------------------
+- Name:                     Bruno Mars-
+- Age:                              33-
+- Gender:                       Female-
+- Contact Number:         703-703-7654-
+- ID Number:                    876543-
+- Class Standing:            Sophomore-
+- GPA:                             3.2-
+---------------------------------------
+- Assignment Score:                800-
+- Knows Python?                    Yes-
+- Graduation Date:           5/11/2020-
+---------------------------------------
+Done!
+

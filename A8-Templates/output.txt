@@ -1,0 +1,125 @@
+C:\Users\snek\Desktop\CS1C\A8-Templates>test.exe
+--------------------------------------------------------
+-                Assignment 8 - Template               -
+--------------------------------------------------------
+-              George Good - CS1C 2:30 M/W             -
+--------------------------------------------------------
+This program will test Templates using a Queue container.
+The program will create a character queue, an int queue, and
+a double queue and then test them by adding and removing elements
+printing whenever a change is made.
+Program Start!
+Objects Declared! Beginning Char Queue...
+
+Testing isEmpty: 1
+Testing isFull: 0
+Inserting a
+Printing Queue... a
+Inserting b
+Printing Queue... a b
+Inserting c
+Printing Queue... a b c
+Inserting d
+Printing Queue... a b c d
+Inserting e
+Printing Queue... a b c d e
+Inserting f
+Printing Queue... a b c d e f
+Removing a
+Printing Queue... b c d e f
+Removing b
+Printing Queue... c d e f
+Removing c
+Printing Queue... d e f
+Inserting g
+Printing Queue... d e f g
+Inserting h
+Printing Queue... d e f g h
+
+Testing front method: d
+Inserting i
+Printing Queue... d e f g h i
+Inserting j
+Removing d
+Printing Queue... e f g h i j
+Removing e
+Printing Queue... f g h i j
+Removing f
+Printing Queue... g h i j
+Removing g
+Printing Queue... h i j
+Removing h
+Printing Queue... i j
+Removing i
+Printing Queue... j
+Removing j
+Printing Queue...
+Removing i
+Printing Queue...
+Testing isEmpty: 0
+Testing isFull: 0
+
+Char queue Finished. Beginning Int Queue...
+Inserting 1
+Printing Queue... 1
+Inserting 2
+Printing Queue... 1 2
+Inserting 3
+Printing Queue... 1 2 3
+Inserting 4
+Printing Queue... 1 2 3 4
+Inserting 5
+Printing Queue... 1 2 3 4 5
+Inserting 6
+Printing Queue... 1 2 3 4 5 6
+Removing 1
+Printing Queue... 2 3 4 5 6
+Removing 2
+Printing Queue... 3 4 5 6
+Inserting 7
+Printing Queue... 3 4 5 6 7
+Inserting 8
+Printing Queue... 3 4 5 6 7 8
+Inserting 9
+Printing Queue... 3 4 5 6 7 8 9
+Removing 3
+Printing Queue... 4 5 6 7 8 9
+Removing 4
+Printing Queue... 5 6 7 8 9
+Removing 5
+Printing Queue... 6 7 8 9
+Removing 6
+Printing Queue... 7 8 9
+
+Int queue Finished. Beginning Double Queue...
+Inserting 1.1
+Printing Queue... 1.1
+Inserting 2.1
+Printing Queue... 1.1 2.1
+Inserting 3.3
+Printing Queue... 1.1 2.1 3.3
+Inserting 4.4
+Printing Queue... 1.1 2.1 3.3 4.4
+Inserting 5.5
+Printing Queue... 1.1 2.1 3.3 4.4 5.5
+Inserting 6.6
+Printing Queue... 1.1 2.1 3.3 4.4 5.5 6.6
+Removing 1.1
+Printing Queue... 2.1 3.3 4.4 5.5 6.6
+Inserting 7.7
+Printing Queue... 2.1 3.3 4.4 5.5 6.6 7.7
+Inserting 8.8
+Printing Queue... 2.1 3.3 4.4 5.5 6.6 7.7 8.8
+Removing 2.1
+Printing Queue... 3.3 4.4 5.5 6.6 7.7 8.8
+Removing 3.3
+Printing Queue... 4.4 5.5 6.6 7.7 8.8
+Removing 4.4
+Printing Queue... 5.5 6.6 7.7 8.8
+Removing 5.5
+Printing Queue... 6.6 7.7 8.8
+Removing 6.6
+Printing Queue... 7.7 8.8
+
+Finished!
+Program End

@@ -1,0 +1,54 @@
+C:\Users\snek\Desktop\CS1C\A6-Abstract, CMD. Friends, Overloading>test.exe george good
+--------------------------------------------------------
+-Assignment 6 - CMD, Abstract, Friends, and Overloading-
+--------------------------------------------------------
+-              George Good - CS1C 2:30 M/W             -
+--------------------------------------------------------
+This program will execute in 3 parts. Part 1 will initiate
+a Square object and a Triangle object, both of which are derived
+from an abstract Shape object. The program will then test thier
+member functions for calcualting perimeter and area and then print
+them. Part 2 will test the command line parameters included in the
+main function. Part 3 will test the square's associated
+friend functions and overloaded operators.
+Program Start!
+Part 1:
+Creating objects...Done!
+Setting Square side lengths...Done!
+Calling Perimeter...Perimeter of Square is : 35.52
+Done!
+Calling Area...Area of Square is : 78.8544
+Done!
+Setting Triangle side lengths...Done!
+Calling Perimeter...Perimeter of Triangle is : 30
+Done!
+Calling Area...Area of Triangle is : 30
+Done!
+
+Part 2:
+There are 3 arguments on the command line. They are :
+test.exe, george, good,
+
+
+Part 3:
+Testing Equal Friend Function with equal perimeters...Perimeters are unequal.
+Done!
+Testing Equal Friend Function with unequal perimeters...Perimeters are unequal.
+Done!
+Testing Square Equality Operator with equal input...Areas are equal
+
+Done!
+Testing Square Equality Operator with unequal input...Areas are unequal
+
+Done!
+Testing addition friend...
+Adding to side... Done!
+Added 8 to Square's side length!
+Printing side after addition... 11
+Testing IOstream operators...
+Enter Side Length: 12
+Square's side length is 12
+Square's perimeter is 48
+Square's area is 144
+
+Done!

@@ -1,0 +1,47 @@
+Execution 1
+
+C:\Users\snek\Desktop\CS1C\a7-Exceptions>test
+--------------------------------------------------------
+-               Assignment 7 - Exceptions              -
+--------------------------------------------------------
+-              George Good - CS1C 2:30 M/W             -
+--------------------------------------------------------
+This program will test assert macros and Exception handling.
+The first execution will fail to meet the assert macro's parameters
+And terminate. The second will get past the assert, and show the
+throws done by the square class objects and the catches that get them
+by printing the values that triggered them. The throws will also set
+the variables to an accepted value.
+Program Start!
+Testing Assert...1
+Assertion failed: test > 1, file main.cpp, line 32
+
+
+
+
+Execution 2
+
+C:\Users\snek\Desktop\CS1C\a7-Exceptions>test
+--------------------------------------------------------
+-               Assignment 7 - Exceptions              -
+--------------------------------------------------------
+-              George Good - CS1C 2:30 M/W             -
+--------------------------------------------------------
+This program will test assert macros and Exception handling.
+The first execution will fail to meet the assert macro's parameters
+And terminate. The second will get past the assert, and show the
+throws done by the square class objects and the catches that get them
+by printing the values that triggered them. The throws will also set
+the variables to an accepted value.
+Program Start!
+Testing Assert...2
+Assert Passed! Moving on...
+Creating object...Done!
+Setting Square side length to -5...
+Value is below 0! Entered value: -5
+Enter a valid value please.
+Setting side to 7000
+Value is above 100! Entered value: 7000
+Enter a valid value please
+Setting side to 4
+Printing Square side length...4

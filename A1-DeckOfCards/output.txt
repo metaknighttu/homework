@@ -1,0 +1,178 @@
+-------------------------------------
+Assignment 1: Perfect Shuffle of Deck
+-------------------------------------
+     George Good - CS1C M/W 2:30
+-------------------------------------
+This program will create an ordered deck of cards,
+Then it will split the deck evenly and shuffle it together perfectly
+Once done, the shuffled deck is printed.
+Then, the program reshuffles the deck agin and again until
+it is back in its original order, then prints the number of shuffles.
+
+Initializing first Deck of Cards:
+Initializing Control Deck of Cards:
+Now printing the order of the ordered deck of cards:
+Two of Hearts
+Three of Hearts
+Four of Hearts
+Five of Hearts
+Six of Hearts
+Seven of Hearts
+Eight of Hearts
+Nine of Hearts
+Ten of Hearts
+Jack of Hearts
+Queen of Hearts
+King of Hearts
+Ace of Hearts
+Two of Spades
+Three of Spades
+Four of Spades
+Five of Spades
+Six of Spades
+Seven of Spades
+Eight of Spades
+Nine of Spades
+Ten of Spades
+Jack of Spades
+Queen of Spades
+King of Spades
+Ace of Spades
+Two of Diamonds
+Three of Diamonds
+Four of Diamonds
+Five of Diamonds
+Six of Diamonds
+Seven of Diamonds
+Eight of Diamonds
+Nine of Diamonds
+Ten of Diamonds
+Jack of Diamonds
+Queen of Diamonds
+King of Diamonds
+Ace of Diamonds
+Two of Clubs
+Three of Clubs
+Four of Clubs
+Five of Clubs
+Six of Clubs
+Seven of Clubs
+Eight of Clubs
+Nine of Clubs
+Ten of Clubs
+Jack of Clubs
+Queen of Clubs
+King of Clubs
+Ace of Clubs
+
+Now shuffling the ordered deck:
+deck copied successfully
+Number of Shuffles: 1
+Now printing the order of the deck after one shuffle:
+Ace of Spades
+Ace of Clubs
+Four of Hearts
+Five of Hearts
+Six of Hearts
+Seven of Hearts
+Eight of Hearts
+Nine of Hearts
+Ten of Hearts
+Jack of Hearts
+Queen of Hearts
+King of Hearts
+Ace of Hearts
+Two of Spades
+Three of Spades
+Four of Spades
+Five of Spades
+Six of Spades
+Seven of Spades
+Eight of Spades
+Nine of Spades
+Ten of Spades
+Jack of Spades
+Queen of Spades
+King of Spades
+Ace of Spades
+Two of Diamonds
+Three of Diamonds
+Four of Diamonds
+Five of Diamonds
+Six of Diamonds
+Seven of Diamonds
+Eight of Diamonds
+Nine of Diamonds
+Ten of Diamonds
+Jack of Diamonds
+Queen of Diamonds
+King of Diamonds
+Ace of Diamonds
+Two of Clubs
+Three of Clubs
+Four of Clubs
+Five of Clubs
+Six of Clubs
+Seven of Clubs
+Eight of Clubs
+Nine of Clubs
+Ten of Clubs
+Jack of Clubs
+Queen of Clubs
+King of Clubs
+Ace of Clubs
+Now shuffling the deck back into its original order:
+deck copied successfully
+Ace of Spades
+Ace of Clubs
+Four of Hearts
+Five of Hearts
+Six of Hearts
+Seven of Hearts
+Eight of Hearts
+Nine of Hearts
+Ten of Hearts
+Jack of Hearts
+Queen of Hearts
+King of Hearts
+Ace of Hearts
+Two of Spades
+Three of Spades
+Four of Spades
+Five of Spades
+Six of Spades
+Seven of Spades
+Eight of Spades
+Nine of Spades
+Ten of Spades
+Jack of Spades
+Queen of Spades
+King of Spades
+Ace of Spades
+Two of Diamonds
+Three of Diamonds
+Four of Diamonds
+Five of Diamonds
+Six of Diamonds
+Seven of Diamonds
+Eight of Diamonds
+Nine of Diamonds
+Ten of Diamonds
+Jack of Diamonds
+Queen of Diamonds
+King of Diamonds
+Ace of Diamonds
+Two of Clubs
+Three of Clubs
+Four of Clubs
+Five of Clubs
+Six of Clubs
+Seven of Clubs
+Eight of Clubs
+Nine of Clubs
+Ten of Clubs
+Jack of Clubs
+Queen of Clubs
+King of Clubs
+Ace of Clubs
+Number of Shuffles: 2
